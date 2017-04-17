@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $.ajax({
+            type:'get',
+            url:"http://localhost:3000/data",
+            dataType:"json",
+            success:function(data){
+                console.log(data);
+//                console.log("123");
+            }
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
